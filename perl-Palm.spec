@@ -8,7 +8,7 @@ Summary(pl):	Zestaw modu³ów Palm
 Name:		perl-Palm
 Version:	1.3.0
 Release:	1
-License:	(enter GPL/LGPL/BSD/BSD-like/Artistic/other license name here)
+License:	Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Palm/ARENSB/p5-Palm-%{version}.tar.gz
 # Source0-md5:	67770a4c650f3880a8b1cbded0696e70
@@ -33,7 +33,6 @@ Palm::ToDo.
 %build
 %{__perl} Makefile.PL \
 	INSTALLDIRS=vendor
-
 %{__make}
 
 %{?with_tests:%{__make} test}
