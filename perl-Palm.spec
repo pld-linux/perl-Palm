@@ -4,6 +4,7 @@
 #
 %include	/usr/lib/rpm/macros.perl
 Summary:	Set of Palm modules
+Summary(pl):	Zestaw modu³ów Palm
 Name:		perl-Palm
 Version:	1.3.0
 Release:	1
@@ -17,8 +18,14 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Set of Palm releated modules
-Palm::Address Palm::Datebook Palm::Mail Palm::Memo Palm::PDB Palm::Raw Palm::StdAppInfo Palm::ToDo
+Set of Palm related modules: Palm::Address, Palm::Datebook,
+Palm::Mail, Palm::Memo, Palm::PDB, Palm::Raw, Palm::StdAppInfo,
+Palm::ToDo.
+
+%description -l pl
+Zestaw modu³ów zwi±zanych z Palmem: Palm::Address, Palm::Datebook,
+Palm::Mail, Palm::Memo, Palm::PDB, Palm::Raw, Palm::StdAppInfo,
+Palm::ToDo.
 
 %prep
 %setup -q -n p5-Palm-1.003_000
@@ -43,6 +50,7 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc ChangeLog README
+%attr(755,root,root) %{_bindir}/pdbdump
+%dir %{perl_vendorlib}/Palm
 %{perl_vendorlib}/Palm/*pm
-%{_bindir}/pdbdump
 %{_mandir}/man[13]/*
