@@ -3,6 +3,7 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
+%define	pnam	Palm
 Summary:	Set of Palm modules
 Summary(pl):	Zestaw modu³ów Palm
 Name:		perl-Palm
@@ -10,7 +11,7 @@ Version:	1.3.0
 Release:	1
 License:	Artistic
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-module/Palm/ARENSB/p5-Palm-%{version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-authors/id/A/AR/ARENSB/p5-%{pnam}-%{version}.tar.gz
 # Source0-md5:	67770a4c650f3880a8b1cbded0696e70
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
