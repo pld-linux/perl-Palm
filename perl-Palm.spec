@@ -5,7 +5,7 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pnam	Palm
 Summary:	Set of Palm modules
-Summary(pl):	Zestaw modu≥Ûw Palm
+Summary(pl.UTF-8):   Zestaw modu≈Ç√≥w Palm
 Name:		perl-Palm
 Version:	1.3.0
 Release:	1
@@ -23,8 +23,8 @@ Set of Palm related modules: Palm::Address, Palm::Datebook,
 Palm::Mail, Palm::Memo, Palm::PDB, Palm::Raw, Palm::StdAppInfo,
 Palm::ToDo.
 
-%description -l pl
-Zestaw modu≥Ûw zwi±zanych z Palmem: Palm::Address, Palm::Datebook,
+%description -l pl.UTF-8
+Zestaw modu≈Ç√≥w zwiƒÖzanych z Palmem: Palm::Address, Palm::Datebook,
 Palm::Mail, Palm::Memo, Palm::PDB, Palm::Raw, Palm::StdAppInfo,
 Palm::ToDo.
 
