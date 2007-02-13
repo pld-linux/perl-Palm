@@ -5,7 +5,7 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pnam	Palm
 Summary:	Set of Palm modules
-Summary(pl.UTF-8):   Zestaw modułów Palm
+Summary(pl.UTF-8):	Zestaw modułów Palm
 Name:		perl-Palm
 Version:	1.3.0
 Release:	1
