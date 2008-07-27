@@ -8,7 +8,7 @@ Summary:	Set of Palm modules
 Summary(pl.UTF-8):	Zestaw modułów Palm
 Name:		perl-Palm
 Version:	1.3.0
-Release:	1
+Release:	2
 License:	Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-authors/id/A/AR/ARENSB/p5-%{pnam}-%{version}.tar.gz
