@@ -1,9 +1,9 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define	pnam	Palm
+%include	/usr/lib/rpm/macros.perl
 Summary:	Set of Palm modules
 Summary(pl.UTF-8):	Zestaw modułów Palm
 Name:		perl-Palm
@@ -13,6 +13,7 @@ License:	Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-authors/id/A/AR/ARENSB/p5-%{pnam}-%{version}.tar.gz
 # Source0-md5:	67770a4c650f3880a8b1cbded0696e70
+URL:		http://search.cpan.org/dist/-Palm/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
