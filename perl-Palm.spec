@@ -3,7 +3,6 @@
 %bcond_without	tests	# do not perform "make test"
 
 %define	pnam	Palm
-%include	/usr/lib/rpm/macros.perl
 Summary:	Set of Palm modules
 Summary(pl.UTF-8):	Zestaw modułów Palm
 Name:		perl-Palm
